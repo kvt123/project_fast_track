@@ -1,0 +1,2 @@
+../Middleware/gpio/src/gpio_middleware.c:10:6:GPIO_Configuration	16	static
+../Middleware/gpio/src/gpio_middleware.c:42:6:ControlLed	16	static

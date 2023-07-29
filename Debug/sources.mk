@@ -22,8 +22,19 @@ C_DEPS :=
 # Every subdirectory with source files must be described here
 SUBDIRS := \
 App \
-Drivers/src \
+Drivers/flash/src \
+Drivers/gpio/src \
+Drivers/misc/src \
+Drivers/rcc/src \
+Drivers/uart/src \
 Interrupt \
+Middleware/flash/src \
+Middleware/gpio/src \
+Middleware/handle_data_frame/src \
+Middleware/misc/src \
+Middleware/queue/src \
+Middleware/rcc/src \
+Middleware/uart/src \
 Src \
 Startup \
 

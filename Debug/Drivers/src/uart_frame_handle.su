@@ -1,3 +1,0 @@
-../Drivers/src/uart_frame_handle.c:21:16:parseDataFrame	32	static
-../Drivers/src/uart_frame_handle.c:117:16:handleDataFrame	40	static
-../Drivers/src/uart_frame_handle.c:242:6:CreateSendFeedBackFrame	32	static

@@ -23,9 +23,9 @@
 
 /* Includes ------------------------------------------------------------------*/
 #include "stm32f10x_it.h"
-#include "gpio.h"
+#include "gpio_driver.h"
 
-#include "stm32f10x_usart.h"
+#include "uart_driver.h"
 
 /** @addtogroup STM32F10x_StdPeriph_Examples
   * @{

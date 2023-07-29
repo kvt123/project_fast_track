@@ -11,8 +11,19 @@ RM := rm -rf
 -include sources.mk
 -include Startup/subdir.mk
 -include Src/subdir.mk
+-include Middleware/uart/src/subdir.mk
+-include Middleware/rcc/src/subdir.mk
+-include Middleware/queue/src/subdir.mk
+-include Middleware/misc/src/subdir.mk
+-include Middleware/handle_data_frame/src/subdir.mk
+-include Middleware/gpio/src/subdir.mk
+-include Middleware/flash/src/subdir.mk
 -include Interrupt/subdir.mk
--include Drivers/src/subdir.mk
+-include Drivers/uart/src/subdir.mk
+-include Drivers/rcc/src/subdir.mk
+-include Drivers/misc/src/subdir.mk
+-include Drivers/gpio/src/subdir.mk
+-include Drivers/flash/src/subdir.mk
 -include App/subdir.mk
 -include objects.mk
 

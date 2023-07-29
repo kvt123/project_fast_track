@@ -1,0 +1,5 @@
+../Drivers/gpio/src/gpio_driver.c:6:6:HAL_GPIO_Init	40	static
+../Drivers/gpio/src/gpio_driver.c:98:6:HAL_GPIO_Write_Pin	24	static
+../Drivers/gpio/src/gpio_driver.c:113:11:HAL_GPIO_Read_Pin	24	static
+../Drivers/gpio/src/gpio_driver.c:127:6:HAL_GPIO_Toggle_Pin	16	static
+../Drivers/gpio/src/gpio_driver.c:141:6:Control_Led	16	static

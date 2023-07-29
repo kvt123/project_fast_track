@@ -1,5 +1,13 @@
 {
     "files.associations": {
-        "uart_frame_handle.h": "c"
+        "uart_frame_handle.h": "c",
+        "stm32f10x_flash.h": "c",
+        "stm32f10x_rcc.h": "c",
+        "rcc_middleware.h": "c",
+        "stm32f10x_usart.h": "c",
+        "queue_midderware.h": "c",
+        "misc_driver.h": "c",
+        "gpio.h": "c",
+        "uart_middleware.h": "c"
     }
 }
