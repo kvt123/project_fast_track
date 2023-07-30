@@ -26,7 +26,7 @@
 #include "gpio_driver.h"
 
 #include "uart_driver.h"
-
+#include "APP.h"
 /** @addtogroup STM32F10x_StdPeriph_Examples
   * @{
   */
@@ -52,6 +52,12 @@ extern uint8_t NbrOfDataToTransfer2;
 extern uint8_t NbrOfDataToRead1;
 extern uint8_t NbrOfDataToRead2;
 
+
+extern uint8_t frameData[20];
+extern uint8_t frameSize;
+
+
+uint8_t count =0;
 /* Private function prototypes -----------------------------------------------*/
 /* Private functions ---------------------------------------------------------*/
 
@@ -167,21 +173,23 @@ void SysTick_Handler(void)
   */
 void USART1_IRQHandler(void)
 {
-  // if('1' == USART_ReceiveData(USART1))
-  // {
-  //   HAL_GPIO_Write_Pin(GPIOC, GPIO_Pin_13,Bit_RESET);
-  // }
-  // else
-  // {
-  //   HAL_GPIO_Write_Pin(GPIOC, GPIO_Pin_13,Bit_SET);
-  // }
-//   if(USART_GetITStatus(USART1, USART_IT_RXNE) != RESET)
-//   {
+   if(USART_GetITStatus(USART1, USART_IT_RXNE) != RESET)
+  {
       uint8_t ch;
       ch =  USART_ReceiveData(USART1);
       USART1_callBackFuction(ch);
-//   }
+  }
+  if(USART_GetITStatus(USART1, USART_IT_TXE) != RESET)
+  {
+      USART_SendData(USART1, frameData[count++]);
+      if(count == frameSize)
+      {
+            USART_ITConfig(USART1, USART_IT_TXE, DISABLE);
+            USART_ITConfig(USART1, USART_IT_RXNE, ENABLE);
+            count =0;
+      }
 
+  }
 
 }
 

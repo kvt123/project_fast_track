@@ -9,7 +9,7 @@
 "./Middleware/gpio/src/gpio_middleware.o"
 "./Middleware/handle_data_frame/src/handle_data_frame.o"
 "./Middleware/misc/src/misc_middleware.o"
-"./Middleware/queue/src/queue_middleware.o"
+"./Middleware/queue/src/queue_middeware.o"
 "./Middleware/rcc/src/rcc_middleware.o"
 "./Middleware/uart/src/uart_middleware.o"
 "./Src/core_cm3.o"

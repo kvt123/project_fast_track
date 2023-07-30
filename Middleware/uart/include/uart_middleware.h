@@ -15,7 +15,7 @@
 
 void USART_Configuration(void);
 
-void USART1_transmit_string(uint8_t *buffer, uint16_t length_buffer);
+void USART1_transmit();
 
 
 #endif /* _UART_MIDDERWARE_H_ */

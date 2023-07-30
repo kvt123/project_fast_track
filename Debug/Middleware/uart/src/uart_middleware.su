@@ -1,2 +1,2 @@
 ../Middleware/uart/src/uart_middleware.c:5:6:USART_Configuration	24	static
-../Middleware/uart/src/uart_middleware.c:27:6:USART1_transmit_string	24	static
+../Middleware/uart/src/uart_middleware.c:27:6:USART1_transmit	8	static

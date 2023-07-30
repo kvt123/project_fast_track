@@ -357,10 +357,10 @@ Discarded input sections
                 0x0000000000000000       0x36 ./Drivers/uart/src/uart_driver.o
  .text.USART_IrDACmd
                 0x0000000000000000       0x3e ./Drivers/uart/src/uart_driver.o
+ .text.USART_GetFlagStatus
+                0x0000000000000000       0x36 ./Drivers/uart/src/uart_driver.o
  .text.USART_ClearFlag
                 0x0000000000000000       0x20 ./Drivers/uart/src/uart_driver.o
- .text.USART_GetITStatus
-                0x0000000000000000       0xb4 ./Drivers/uart/src/uart_driver.o
  .text.USART_ClearITPendingBit
                 0x0000000000000000       0x38 ./Drivers/uart/src/uart_driver.o
  .debug_macro   0x0000000000000000      0xa7e ./Drivers/uart/src/uart_driver.o
@@ -376,6 +376,7 @@ Discarded input sections
  .debug_macro   0x0000000000000000     0x7def ./Drivers/uart/src/uart_driver.o
  .debug_macro   0x0000000000000000      0x21a ./Drivers/uart/src/uart_driver.o
  .debug_macro   0x0000000000000000      0x3e2 ./Drivers/uart/src/uart_driver.o
+ .group         0x0000000000000000        0xc ./Interrupt/stm32f10x_it.o
  .group         0x0000000000000000        0xc ./Interrupt/stm32f10x_it.o
  .group         0x0000000000000000        0xc ./Interrupt/stm32f10x_it.o
  .group         0x0000000000000000        0xc ./Interrupt/stm32f10x_it.o
@@ -406,6 +407,7 @@ Discarded input sections
  .debug_macro   0x0000000000000000     0x7def ./Interrupt/stm32f10x_it.o
  .debug_macro   0x0000000000000000       0x22 ./Interrupt/stm32f10x_it.o
  .debug_macro   0x0000000000000000       0x6a ./Interrupt/stm32f10x_it.o
+ .debug_macro   0x0000000000000000       0x16 ./Interrupt/stm32f10x_it.o
  .group         0x0000000000000000        0xc ./Middleware/flash/src/flash_middleware.o
  .group         0x0000000000000000        0xc ./Middleware/flash/src/flash_middleware.o
  .group         0x0000000000000000        0xc ./Middleware/flash/src/flash_middleware.o
@@ -534,57 +536,57 @@ Discarded input sections
  .debug_macro   0x0000000000000000      0x6bd ./Middleware/misc/src/misc_middleware.o
  .debug_macro   0x0000000000000000     0x7def ./Middleware/misc/src/misc_middleware.o
  .debug_macro   0x0000000000000000       0x85 ./Middleware/misc/src/misc_middleware.o
- .group         0x0000000000000000        0xc ./Middleware/queue/src/queue_middleware.o
- .group         0x0000000000000000        0xc ./Middleware/queue/src/queue_middleware.o
- .group         0x0000000000000000        0xc ./Middleware/queue/src/queue_middleware.o
- .group         0x0000000000000000        0xc ./Middleware/queue/src/queue_middleware.o
- .group         0x0000000000000000        0xc ./Middleware/queue/src/queue_middleware.o
- .group         0x0000000000000000        0xc ./Middleware/queue/src/queue_middleware.o
- .group         0x0000000000000000        0xc ./Middleware/queue/src/queue_middleware.o
- .group         0x0000000000000000        0xc ./Middleware/queue/src/queue_middleware.o
- .group         0x0000000000000000        0xc ./Middleware/queue/src/queue_middleware.o
- .group         0x0000000000000000        0xc ./Middleware/queue/src/queue_middleware.o
- .group         0x0000000000000000        0xc ./Middleware/queue/src/queue_middleware.o
- .group         0x0000000000000000        0xc ./Middleware/queue/src/queue_middleware.o
- .group         0x0000000000000000        0xc ./Middleware/queue/src/queue_middleware.o
- .group         0x0000000000000000        0xc ./Middleware/queue/src/queue_middleware.o
- .group         0x0000000000000000        0xc ./Middleware/queue/src/queue_middleware.o
- .group         0x0000000000000000        0xc ./Middleware/queue/src/queue_middleware.o
- .group         0x0000000000000000        0xc ./Middleware/queue/src/queue_middleware.o
- .group         0x0000000000000000        0xc ./Middleware/queue/src/queue_middleware.o
- .group         0x0000000000000000        0xc ./Middleware/queue/src/queue_middleware.o
- .group         0x0000000000000000        0xc ./Middleware/queue/src/queue_middleware.o
- .group         0x0000000000000000        0xc ./Middleware/queue/src/queue_middleware.o
- .group         0x0000000000000000        0xc ./Middleware/queue/src/queue_middleware.o
- .group         0x0000000000000000        0xc ./Middleware/queue/src/queue_middleware.o
- .group         0x0000000000000000        0xc ./Middleware/queue/src/queue_middleware.o
- .group         0x0000000000000000        0xc ./Middleware/queue/src/queue_middleware.o
- .group         0x0000000000000000        0xc ./Middleware/queue/src/queue_middleware.o
- .text          0x0000000000000000        0x0 ./Middleware/queue/src/queue_middleware.o
- .data          0x0000000000000000        0x0 ./Middleware/queue/src/queue_middleware.o
- .bss           0x0000000000000000        0x0 ./Middleware/queue/src/queue_middleware.o
- .debug_macro   0x0000000000000000      0xa7e ./Middleware/queue/src/queue_middleware.o
- .debug_macro   0x0000000000000000       0x22 ./Middleware/queue/src/queue_middleware.o
- .debug_macro   0x0000000000000000       0x22 ./Middleware/queue/src/queue_middleware.o
- .debug_macro   0x0000000000000000       0x8e ./Middleware/queue/src/queue_middleware.o
- .debug_macro   0x0000000000000000       0x51 ./Middleware/queue/src/queue_middleware.o
- .debug_macro   0x0000000000000000      0x103 ./Middleware/queue/src/queue_middleware.o
- .debug_macro   0x0000000000000000       0x6a ./Middleware/queue/src/queue_middleware.o
- .debug_macro   0x0000000000000000      0x1df ./Middleware/queue/src/queue_middleware.o
- .debug_macro   0x0000000000000000       0x52 ./Middleware/queue/src/queue_middleware.o
- .debug_macro   0x0000000000000000       0x18 ./Middleware/queue/src/queue_middleware.o
- .debug_macro   0x0000000000000000       0x3c ./Middleware/queue/src/queue_middleware.o
- .debug_macro   0x0000000000000000       0x34 ./Middleware/queue/src/queue_middleware.o
- .debug_macro   0x0000000000000000       0x16 ./Middleware/queue/src/queue_middleware.o
- .debug_macro   0x0000000000000000       0x43 ./Middleware/queue/src/queue_middleware.o
- .debug_macro   0x0000000000000000       0x34 ./Middleware/queue/src/queue_middleware.o
- .debug_macro   0x0000000000000000       0x10 ./Middleware/queue/src/queue_middleware.o
- .debug_macro   0x0000000000000000       0x58 ./Middleware/queue/src/queue_middleware.o
- .debug_macro   0x0000000000000000       0x71 ./Middleware/queue/src/queue_middleware.o
- .debug_macro   0x0000000000000000       0x1c ./Middleware/queue/src/queue_middleware.o
- .debug_macro   0x0000000000000000      0x12a ./Middleware/queue/src/queue_middleware.o
- .debug_macro   0x0000000000000000      0x341 ./Middleware/queue/src/queue_middleware.o
- .debug_macro   0x0000000000000000       0x16 ./Middleware/queue/src/queue_middleware.o
+ .group         0x0000000000000000        0xc ./Middleware/queue/src/queue_middeware.o
+ .group         0x0000000000000000        0xc ./Middleware/queue/src/queue_middeware.o
+ .group         0x0000000000000000        0xc ./Middleware/queue/src/queue_middeware.o
+ .group         0x0000000000000000        0xc ./Middleware/queue/src/queue_middeware.o
+ .group         0x0000000000000000        0xc ./Middleware/queue/src/queue_middeware.o
+ .group         0x0000000000000000        0xc ./Middleware/queue/src/queue_middeware.o
+ .group         0x0000000000000000        0xc ./Middleware/queue/src/queue_middeware.o
+ .group         0x0000000000000000        0xc ./Middleware/queue/src/queue_middeware.o
+ .group         0x0000000000000000        0xc ./Middleware/queue/src/queue_middeware.o
+ .group         0x0000000000000000        0xc ./Middleware/queue/src/queue_middeware.o
+ .group         0x0000000000000000        0xc ./Middleware/queue/src/queue_middeware.o
+ .group         0x0000000000000000        0xc ./Middleware/queue/src/queue_middeware.o
+ .group         0x0000000000000000        0xc ./Middleware/queue/src/queue_middeware.o
+ .group         0x0000000000000000        0xc ./Middleware/queue/src/queue_middeware.o
+ .group         0x0000000000000000        0xc ./Middleware/queue/src/queue_middeware.o
+ .group         0x0000000000000000        0xc ./Middleware/queue/src/queue_middeware.o
+ .group         0x0000000000000000        0xc ./Middleware/queue/src/queue_middeware.o
+ .group         0x0000000000000000        0xc ./Middleware/queue/src/queue_middeware.o
+ .group         0x0000000000000000        0xc ./Middleware/queue/src/queue_middeware.o
+ .group         0x0000000000000000        0xc ./Middleware/queue/src/queue_middeware.o
+ .group         0x0000000000000000        0xc ./Middleware/queue/src/queue_middeware.o
+ .group         0x0000000000000000        0xc ./Middleware/queue/src/queue_middeware.o
+ .group         0x0000000000000000        0xc ./Middleware/queue/src/queue_middeware.o
+ .group         0x0000000000000000        0xc ./Middleware/queue/src/queue_middeware.o
+ .group         0x0000000000000000        0xc ./Middleware/queue/src/queue_middeware.o
+ .group         0x0000000000000000        0xc ./Middleware/queue/src/queue_middeware.o
+ .text          0x0000000000000000        0x0 ./Middleware/queue/src/queue_middeware.o
+ .data          0x0000000000000000        0x0 ./Middleware/queue/src/queue_middeware.o
+ .bss           0x0000000000000000        0x0 ./Middleware/queue/src/queue_middeware.o
+ .debug_macro   0x0000000000000000      0xa7e ./Middleware/queue/src/queue_middeware.o
+ .debug_macro   0x0000000000000000       0x22 ./Middleware/queue/src/queue_middeware.o
+ .debug_macro   0x0000000000000000       0x22 ./Middleware/queue/src/queue_middeware.o
+ .debug_macro   0x0000000000000000       0x8e ./Middleware/queue/src/queue_middeware.o
+ .debug_macro   0x0000000000000000       0x51 ./Middleware/queue/src/queue_middeware.o
+ .debug_macro   0x0000000000000000      0x103 ./Middleware/queue/src/queue_middeware.o
+ .debug_macro   0x0000000000000000       0x6a ./Middleware/queue/src/queue_middeware.o
+ .debug_macro   0x0000000000000000      0x1df ./Middleware/queue/src/queue_middeware.o
+ .debug_macro   0x0000000000000000       0x52 ./Middleware/queue/src/queue_middeware.o
+ .debug_macro   0x0000000000000000       0x18 ./Middleware/queue/src/queue_middeware.o
+ .debug_macro   0x0000000000000000       0x3c ./Middleware/queue/src/queue_middeware.o
+ .debug_macro   0x0000000000000000       0x34 ./Middleware/queue/src/queue_middeware.o
+ .debug_macro   0x0000000000000000       0x16 ./Middleware/queue/src/queue_middeware.o
+ .debug_macro   0x0000000000000000       0x43 ./Middleware/queue/src/queue_middeware.o
+ .debug_macro   0x0000000000000000       0x34 ./Middleware/queue/src/queue_middeware.o
+ .debug_macro   0x0000000000000000       0x10 ./Middleware/queue/src/queue_middeware.o
+ .debug_macro   0x0000000000000000       0x58 ./Middleware/queue/src/queue_middeware.o
+ .debug_macro   0x0000000000000000       0x71 ./Middleware/queue/src/queue_middeware.o
+ .debug_macro   0x0000000000000000       0x1c ./Middleware/queue/src/queue_middeware.o
+ .debug_macro   0x0000000000000000      0x12a ./Middleware/queue/src/queue_middeware.o
+ .debug_macro   0x0000000000000000      0x341 ./Middleware/queue/src/queue_middeware.o
+ .debug_macro   0x0000000000000000       0x16 ./Middleware/queue/src/queue_middeware.o
  .group         0x0000000000000000        0xc ./Middleware/rcc/src/rcc_middleware.o
  .group         0x0000000000000000        0xc ./Middleware/rcc/src/rcc_middleware.o
  .group         0x0000000000000000        0xc ./Middleware/rcc/src/rcc_middleware.o
@@ -1017,7 +1019,7 @@ LOAD ./Middleware/flash/src/flash_middleware.o
 LOAD ./Middleware/gpio/src/gpio_middleware.o
 LOAD ./Middleware/handle_data_frame/src/handle_data_frame.o
 LOAD ./Middleware/misc/src/misc_middleware.o
-LOAD ./Middleware/queue/src/queue_middleware.o
+LOAD ./Middleware/queue/src/queue_middeware.o
 LOAD ./Middleware/rcc/src/rcc_middleware.o
 LOAD ./Middleware/uart/src/uart_middleware.o
 LOAD ./Src/core_cm3.o
@@ -1057,7 +1059,7 @@ LOAD d:/stm32_cube sofware/stm32cubeide/ide_1.10.0/setup/stm32cubeide_1.10.0/stm
                 0x0000000008000000                g_pfnVectors
                 0x0000000008000130                . = ALIGN (0x4)
 
-.text           0x0000000008000130     0x1194
+.text           0x0000000008000130     0x1224
                 0x0000000008000130                . = ALIGN (0x4)
  *(.text)
  .text          0x0000000008000130       0x40 d:/stm32_cube sofware/stm32cubeide/ide_1.10.0/setup/stm32cubeide_1.10.0/stm32cubeide/plugins/com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.10.3-2021.10.win32_1.0.0.202111181127/tools/bin/../lib/gcc/arm-none-eabi/10.3.1/thumb/v7-m/nofp/crtbegin.o
@@ -1066,289 +1068,288 @@ LOAD d:/stm32_cube sofware/stm32cubeide/ide_1.10.0/setup/stm32cubeide_1.10.0/stm
                 0x0000000008000170       0x38 ./App/APP.o
                 0x0000000008000170                app_init
  .text.StartProgram
-                0x00000000080001a8       0x84 ./App/APP.o
+                0x00000000080001a8       0x64 ./App/APP.o
                 0x00000000080001a8                StartProgram
  .text.USART1_callBackFuction
-                0x000000000800022c       0x2e ./App/APP.o
-                0x000000000800022c                USART1_callBackFuction
- *fill*         0x000000000800025a        0x2 
+                0x000000000800020c       0x2e ./App/APP.o
+                0x000000000800020c                USART1_callBackFuction
+ *fill*         0x000000000800023a        0x2 
  .text.FLASH_UnlockBank1
-                0x000000000800025c       0x24 ./Drivers/flash/src/flash_driver.o
-                0x000000000800025c                FLASH_UnlockBank1
+                0x000000000800023c       0x24 ./Drivers/flash/src/flash_driver.o
+                0x000000000800023c                FLASH_UnlockBank1
  .text.FLASH_ClearFlag
-                0x0000000008000280       0x1c ./Drivers/flash/src/flash_driver.o
-                0x0000000008000280                FLASH_ClearFlag
+                0x0000000008000260       0x1c ./Drivers/flash/src/flash_driver.o
+                0x0000000008000260                FLASH_ClearFlag
  .text.HAL_GPIO_Init
-                0x000000000800029c      0x172 ./Drivers/gpio/src/gpio_driver.o
-                0x000000000800029c                HAL_GPIO_Init
+                0x000000000800027c      0x172 ./Drivers/gpio/src/gpio_driver.o
+                0x000000000800027c                HAL_GPIO_Init
  .text.HAL_GPIO_Write_Pin
-                0x000000000800040e       0x32 ./Drivers/gpio/src/gpio_driver.o
-                0x000000000800040e                HAL_GPIO_Write_Pin
+                0x00000000080003ee       0x32 ./Drivers/gpio/src/gpio_driver.o
+                0x00000000080003ee                HAL_GPIO_Write_Pin
  .text.Control_Led
-                0x0000000008000440       0x38 ./Drivers/gpio/src/gpio_driver.o
-                0x0000000008000440                Control_Led
+                0x0000000008000420       0x38 ./Drivers/gpio/src/gpio_driver.o
+                0x0000000008000420                Control_Led
  .text.NVIC_PriorityGroupConfig
-                0x0000000008000478       0x24 ./Drivers/misc/src/misc_driver.o
-                0x0000000008000478                NVIC_PriorityGroupConfig
+                0x0000000008000458       0x24 ./Drivers/misc/src/misc_driver.o
+                0x0000000008000458                NVIC_PriorityGroupConfig
  .text.NVIC_Init
-                0x000000000800049c       0xc4 ./Drivers/misc/src/misc_driver.o
-                0x000000000800049c                NVIC_Init
+                0x000000000800047c       0xc4 ./Drivers/misc/src/misc_driver.o
+                0x000000000800047c                NVIC_Init
  .text.RCC_GetClocksFreq
-                0x0000000008000560      0x16c ./Drivers/rcc/src/rcc_driver.o
-                0x0000000008000560                RCC_GetClocksFreq
+                0x0000000008000540      0x16c ./Drivers/rcc/src/rcc_driver.o
+                0x0000000008000540                RCC_GetClocksFreq
  .text.RCC_APB2PeriphClockCmd
-                0x00000000080006cc       0x3c ./Drivers/rcc/src/rcc_driver.o
-                0x00000000080006cc                RCC_APB2PeriphClockCmd
+                0x00000000080006ac       0x3c ./Drivers/rcc/src/rcc_driver.o
+                0x00000000080006ac                RCC_APB2PeriphClockCmd
  .text.USART_Init
-                0x0000000008000708      0x174 ./Drivers/uart/src/uart_driver.o
-                0x0000000008000708                USART_Init
+                0x00000000080006e8      0x174 ./Drivers/uart/src/uart_driver.o
+                0x00000000080006e8                USART_Init
  .text.USART_Cmd
-                0x000000000800087c       0x3e ./Drivers/uart/src/uart_driver.o
-                0x000000000800087c                USART_Cmd
+                0x000000000800085c       0x3e ./Drivers/uart/src/uart_driver.o
+                0x000000000800085c                USART_Cmd
  .text.USART_ITConfig
-                0x00000000080008ba       0x8e ./Drivers/uart/src/uart_driver.o
-                0x00000000080008ba                USART_ITConfig
+                0x000000000800089a       0x8e ./Drivers/uart/src/uart_driver.o
+                0x000000000800089a                USART_ITConfig
  .text.USART_SendData
-                0x0000000008000948       0x22 ./Drivers/uart/src/uart_driver.o
-                0x0000000008000948                USART_SendData
+                0x0000000008000928       0x22 ./Drivers/uart/src/uart_driver.o
+                0x0000000008000928                USART_SendData
  .text.USART_ReceiveData
-                0x000000000800096a       0x1e ./Drivers/uart/src/uart_driver.o
-                0x000000000800096a                USART_ReceiveData
- .text.USART_GetFlagStatus
-                0x0000000008000988       0x36 ./Drivers/uart/src/uart_driver.o
-                0x0000000008000988                USART_GetFlagStatus
+                0x000000000800094a       0x1e ./Drivers/uart/src/uart_driver.o
+                0x000000000800094a                USART_ReceiveData
+ .text.USART_GetITStatus
+                0x0000000008000968       0xb4 ./Drivers/uart/src/uart_driver.o
+                0x0000000008000968                USART_GetITStatus
  .text.NMI_Handler
-                0x00000000080009be        0xc ./Interrupt/stm32f10x_it.o
-                0x00000000080009be                NMI_Handler
+                0x0000000008000a1c        0xc ./Interrupt/stm32f10x_it.o
+                0x0000000008000a1c                NMI_Handler
  .text.HardFault_Handler
-                0x00000000080009ca        0x6 ./Interrupt/stm32f10x_it.o
-                0x00000000080009ca                HardFault_Handler
+                0x0000000008000a28        0x6 ./Interrupt/stm32f10x_it.o
+                0x0000000008000a28                HardFault_Handler
  .text.MemManage_Handler
-                0x00000000080009d0        0x6 ./Interrupt/stm32f10x_it.o
-                0x00000000080009d0                MemManage_Handler
+                0x0000000008000a2e        0x6 ./Interrupt/stm32f10x_it.o
+                0x0000000008000a2e                MemManage_Handler
  .text.BusFault_Handler
-                0x00000000080009d6        0x6 ./Interrupt/stm32f10x_it.o
-                0x00000000080009d6                BusFault_Handler
+                0x0000000008000a34        0x6 ./Interrupt/stm32f10x_it.o
+                0x0000000008000a34                BusFault_Handler
  .text.UsageFault_Handler
-                0x00000000080009dc        0x6 ./Interrupt/stm32f10x_it.o
-                0x00000000080009dc                UsageFault_Handler
+                0x0000000008000a3a        0x6 ./Interrupt/stm32f10x_it.o
+                0x0000000008000a3a                UsageFault_Handler
  .text.SVC_Handler
-                0x00000000080009e2        0xc ./Interrupt/stm32f10x_it.o
-                0x00000000080009e2                SVC_Handler
+                0x0000000008000a40        0xc ./Interrupt/stm32f10x_it.o
+                0x0000000008000a40                SVC_Handler
  .text.DebugMon_Handler
-                0x00000000080009ee        0xc ./Interrupt/stm32f10x_it.o
-                0x00000000080009ee                DebugMon_Handler
+                0x0000000008000a4c        0xc ./Interrupt/stm32f10x_it.o
+                0x0000000008000a4c                DebugMon_Handler
  .text.PendSV_Handler
-                0x00000000080009fa        0xc ./Interrupt/stm32f10x_it.o
-                0x00000000080009fa                PendSV_Handler
+                0x0000000008000a58        0xc ./Interrupt/stm32f10x_it.o
+                0x0000000008000a58                PendSV_Handler
  .text.SysTick_Handler
-                0x0000000008000a06        0xc ./Interrupt/stm32f10x_it.o
-                0x0000000008000a06                SysTick_Handler
- *fill*         0x0000000008000a12        0x2 
+                0x0000000008000a64        0xc ./Interrupt/stm32f10x_it.o
+                0x0000000008000a64                SysTick_Handler
  .text.USART1_IRQHandler
-                0x0000000008000a14       0x24 ./Interrupt/stm32f10x_it.o
-                0x0000000008000a14                USART1_IRQHandler
+                0x0000000008000a70       0x98 ./Interrupt/stm32f10x_it.o
+                0x0000000008000a70                USART1_IRQHandler
  .text.USART2_IRQHandler
-                0x0000000008000a38        0xc ./Interrupt/stm32f10x_it.o
-                0x0000000008000a38                USART2_IRQHandler
+                0x0000000008000b08        0xc ./Interrupt/stm32f10x_it.o
+                0x0000000008000b08                USART2_IRQHandler
  .text.GPIO_Configuration
-                0x0000000008000a44       0x6c ./Middleware/gpio/src/gpio_middleware.o
-                0x0000000008000a44                GPIO_Configuration
+                0x0000000008000b14       0x6c ./Middleware/gpio/src/gpio_middleware.o
+                0x0000000008000b14                GPIO_Configuration
  .text.parseDataFrame
-                0x0000000008000ab0      0x170 ./Middleware/handle_data_frame/src/handle_data_frame.o
-                0x0000000008000ab0                parseDataFrame
+                0x0000000008000b80      0x170 ./Middleware/handle_data_frame/src/handle_data_frame.o
+                0x0000000008000b80                parseDataFrame
  .text.handleDataFrame
-                0x0000000008000c20      0x148 ./Middleware/handle_data_frame/src/handle_data_frame.o
-                0x0000000008000c20                handleDataFrame
+                0x0000000008000cf0      0x148 ./Middleware/handle_data_frame/src/handle_data_frame.o
+                0x0000000008000cf0                handleDataFrame
  .text.CreateSendFeedBackFrame
-                0x0000000008000d68       0x7c ./Middleware/handle_data_frame/src/handle_data_frame.o
-                0x0000000008000d68                CreateSendFeedBackFrame
+                0x0000000008000e38       0x7c ./Middleware/handle_data_frame/src/handle_data_frame.o
+                0x0000000008000e38                CreateSendFeedBackFrame
  .text.NVIC_Configuration
-                0x0000000008000de4       0x2a ./Middleware/misc/src/misc_middleware.o
-                0x0000000008000de4                NVIC_Configuration
- *fill*         0x0000000008000e0e        0x2 
+                0x0000000008000eb4       0x2a ./Middleware/misc/src/misc_middleware.o
+                0x0000000008000eb4                NVIC_Configuration
+ *fill*         0x0000000008000ede        0x2 
  .text.queue_init
-                0x0000000008000e10       0x24 ./Middleware/queue/src/queue_middleware.o
-                0x0000000008000e10                queue_init
+                0x0000000008000ee0       0x24 ./Middleware/queue/src/queue_middeware.o
+                0x0000000008000ee0                queue_init
  .text.queue_isEmpty
-                0x0000000008000e34       0x28 ./Middleware/queue/src/queue_middleware.o
-                0x0000000008000e34                queue_isEmpty
+                0x0000000008000f04       0x28 ./Middleware/queue/src/queue_middeware.o
+                0x0000000008000f04                queue_isEmpty
  .text.queue_isFull
-                0x0000000008000e5c       0x28 ./Middleware/queue/src/queue_middleware.o
-                0x0000000008000e5c                queue_isFull
+                0x0000000008000f2c       0x28 ./Middleware/queue/src/queue_middeware.o
+                0x0000000008000f2c                queue_isFull
  .text.queue_put_newLine
-                0x0000000008000e84       0x50 ./Middleware/queue/src/queue_middleware.o
-                0x0000000008000e84                queue_put_newLine
+                0x0000000008000f54       0x50 ./Middleware/queue/src/queue_middeware.o
+                0x0000000008000f54                queue_put_newLine
  .text.queue_get
-                0x0000000008000ed4       0x48 ./Middleware/queue/src/queue_middleware.o
-                0x0000000008000ed4                queue_get
+                0x0000000008000fa4       0x48 ./Middleware/queue/src/queue_middeware.o
+                0x0000000008000fa4                queue_get
  .text.queue_push_data
-                0x0000000008000f1c       0x54 ./Middleware/queue/src/queue_middleware.o
-                0x0000000008000f1c                queue_push_data
+                0x0000000008000fec       0x54 ./Middleware/queue/src/queue_middeware.o
+                0x0000000008000fec                queue_push_data
  .text.queue_pop
-                0x0000000008000f70       0x38 ./Middleware/queue/src/queue_middleware.o
-                0x0000000008000f70                queue_pop
+                0x0000000008001040       0x38 ./Middleware/queue/src/queue_middeware.o
+                0x0000000008001040                queue_pop
  .text.RCC_Configuration
-                0x0000000008000fa8       0x22 ./Middleware/rcc/src/rcc_middleware.o
-                0x0000000008000fa8                RCC_Configuration
- *fill*         0x0000000008000fca        0x2 
- .text.USART_Configuration
-                0x0000000008000fcc       0x58 ./Middleware/uart/src/uart_middleware.o
-                0x0000000008000fcc                USART_Configuration
- .text.USART1_transmit_string
-                0x0000000008001024       0x64 ./Middleware/uart/src/uart_middleware.o
-                0x0000000008001024                USART1_transmit_string
- .text.main     0x0000000008001088       0x12 ./Src/main.o
-                0x0000000008001088                main
+                0x0000000008001078       0x22 ./Middleware/rcc/src/rcc_middleware.o
+                0x0000000008001078                RCC_Configuration
  *fill*         0x000000000800109a        0x2 
+ .text.USART_Configuration
+                0x000000000800109c       0x58 ./Middleware/uart/src/uart_middleware.o
+                0x000000000800109c                USART_Configuration
+ .text.USART1_transmit
+                0x00000000080010f4       0x24 ./Middleware/uart/src/uart_middleware.o
+                0x00000000080010f4                USART1_transmit
+ .text.main     0x0000000008001118       0x12 ./Src/main.o
+                0x0000000008001118                main
+ *fill*         0x000000000800112a        0x2 
  .text.SystemInit
-                0x000000000800109c       0x68 ./Src/system_stm32f10x.o
-                0x000000000800109c                SystemInit
+                0x000000000800112c       0x68 ./Src/system_stm32f10x.o
+                0x000000000800112c                SystemInit
  .text.SetSysClock
-                0x0000000008001104        0xc ./Src/system_stm32f10x.o
+                0x0000000008001194        0xc ./Src/system_stm32f10x.o
  .text.SetSysClockTo72
-                0x0000000008001110      0x100 ./Src/system_stm32f10x.o
+                0x00000000080011a0      0x100 ./Src/system_stm32f10x.o
  .text.Reset_Handler
-                0x0000000008001210       0x50 ./Startup/startup_stm32f103c6tx.o
-                0x0000000008001210                Reset_Handler
+                0x00000000080012a0       0x50 ./Startup/startup_stm32f103c6tx.o
+                0x00000000080012a0                Reset_Handler
  .text.Default_Handler
-                0x0000000008001260        0x2 ./Startup/startup_stm32f103c6tx.o
-                0x0000000008001260                EXTI2_IRQHandler
-                0x0000000008001260                TIM8_TRG_COM_IRQHandler
-                0x0000000008001260                TIM8_CC_IRQHandler
-                0x0000000008001260                TIM1_CC_IRQHandler
-                0x0000000008001260                TIM6_IRQHandler
-                0x0000000008001260                PVD_IRQHandler
-                0x0000000008001260                SDIO_IRQHandler
-                0x0000000008001260                EXTI3_IRQHandler
-                0x0000000008001260                USB_HP_CAN_TX_IRQHandler
-                0x0000000008001260                EXTI0_IRQHandler
-                0x0000000008001260                I2C2_EV_IRQHandler
-                0x0000000008001260                ADC1_2_IRQHandler
-                0x0000000008001260                SPI1_IRQHandler
-                0x0000000008001260                CAN_SCE_IRQHandler
-                0x0000000008001260                TAMPER_IRQHandler
-                0x0000000008001260                TIM8_UP_IRQHandler
-                0x0000000008001260                DMA2_Channel2_IRQHandler
-                0x0000000008001260                DMA1_Channel4_IRQHandler
-                0x0000000008001260                USART3_IRQHandler
-                0x0000000008001260                RTC_IRQHandler
-                0x0000000008001260                DMA1_Channel7_IRQHandler
-                0x0000000008001260                UART5_IRQHandler
-                0x0000000008001260                ADC3_IRQHandler
-                0x0000000008001260                TIM4_IRQHandler
-                0x0000000008001260                CAN_RX1_IRQHandler
-                0x0000000008001260                DMA2_Channel1_IRQHandler
-                0x0000000008001260                I2C1_EV_IRQHandler
-                0x0000000008001260                DMA1_Channel6_IRQHandler
-                0x0000000008001260                UART4_IRQHandler
-                0x0000000008001260                TIM3_IRQHandler
-                0x0000000008001260                RCC_IRQHandler
-                0x0000000008001260                TIM1_TRG_COM_IRQHandler
-                0x0000000008001260                DMA1_Channel1_IRQHandler
-                0x0000000008001260                Default_Handler
-                0x0000000008001260                EXTI15_10_IRQHandler
-                0x0000000008001260                TIM7_IRQHandler
-                0x0000000008001260                TIM5_IRQHandler
-                0x0000000008001260                EXTI9_5_IRQHandler
-                0x0000000008001260                SPI2_IRQHandler
-                0x0000000008001260                USB_LP_CAN_RX0_IRQHandler
-                0x0000000008001260                DMA1_Channel5_IRQHandler
-                0x0000000008001260                EXTI4_IRQHandler
-                0x0000000008001260                DMA1_Channel3_IRQHandler
-                0x0000000008001260                FSMC_IRQHandler
-                0x0000000008001260                TIM1_UP_IRQHandler
-                0x0000000008001260                WWDG_IRQHandler
-                0x0000000008001260                TIM2_IRQHandler
-                0x0000000008001260                TIM1_BRK_IRQHandler
-                0x0000000008001260                EXTI1_IRQHandler
-                0x0000000008001260                RTCAlarm_IRQHandler
-                0x0000000008001260                DMA2_Channel4_5_IRQHandler
-                0x0000000008001260                I2C2_ER_IRQHandler
-                0x0000000008001260                DMA1_Channel2_IRQHandler
-                0x0000000008001260                TIM8_BRK_IRQHandler
-                0x0000000008001260                FLASH_IRQHandler
-                0x0000000008001260                SPI3_IRQHandler
-                0x0000000008001260                I2C1_ER_IRQHandler
-                0x0000000008001260                DMA2_Channel3_IRQHandler
- *fill*         0x0000000008001262        0x2 
+                0x00000000080012f0        0x2 ./Startup/startup_stm32f103c6tx.o
+                0x00000000080012f0                EXTI2_IRQHandler
+                0x00000000080012f0                TIM8_TRG_COM_IRQHandler
+                0x00000000080012f0                TIM8_CC_IRQHandler
+                0x00000000080012f0                TIM1_CC_IRQHandler
+                0x00000000080012f0                TIM6_IRQHandler
+                0x00000000080012f0                PVD_IRQHandler
+                0x00000000080012f0                SDIO_IRQHandler
+                0x00000000080012f0                EXTI3_IRQHandler
+                0x00000000080012f0                USB_HP_CAN_TX_IRQHandler
+                0x00000000080012f0                EXTI0_IRQHandler
+                0x00000000080012f0                I2C2_EV_IRQHandler
+                0x00000000080012f0                ADC1_2_IRQHandler
+                0x00000000080012f0                SPI1_IRQHandler
+                0x00000000080012f0                CAN_SCE_IRQHandler
+                0x00000000080012f0                TAMPER_IRQHandler
+                0x00000000080012f0                TIM8_UP_IRQHandler
+                0x00000000080012f0                DMA2_Channel2_IRQHandler
+                0x00000000080012f0                DMA1_Channel4_IRQHandler
+                0x00000000080012f0                USART3_IRQHandler
+                0x00000000080012f0                RTC_IRQHandler
+                0x00000000080012f0                DMA1_Channel7_IRQHandler
+                0x00000000080012f0                UART5_IRQHandler
+                0x00000000080012f0                ADC3_IRQHandler
+                0x00000000080012f0                TIM4_IRQHandler
+                0x00000000080012f0                CAN_RX1_IRQHandler
+                0x00000000080012f0                DMA2_Channel1_IRQHandler
+                0x00000000080012f0                I2C1_EV_IRQHandler
+                0x00000000080012f0                DMA1_Channel6_IRQHandler
+                0x00000000080012f0                UART4_IRQHandler
+                0x00000000080012f0                TIM3_IRQHandler
+                0x00000000080012f0                RCC_IRQHandler
+                0x00000000080012f0                TIM1_TRG_COM_IRQHandler
+                0x00000000080012f0                DMA1_Channel1_IRQHandler
+                0x00000000080012f0                Default_Handler
+                0x00000000080012f0                EXTI15_10_IRQHandler
+                0x00000000080012f0                TIM7_IRQHandler
+                0x00000000080012f0                TIM5_IRQHandler
+                0x00000000080012f0                EXTI9_5_IRQHandler
+                0x00000000080012f0                SPI2_IRQHandler
+                0x00000000080012f0                USB_LP_CAN_RX0_IRQHandler
+                0x00000000080012f0                DMA1_Channel5_IRQHandler
+                0x00000000080012f0                EXTI4_IRQHandler
+                0x00000000080012f0                DMA1_Channel3_IRQHandler
+                0x00000000080012f0                FSMC_IRQHandler
+                0x00000000080012f0                TIM1_UP_IRQHandler
+                0x00000000080012f0                WWDG_IRQHandler
+                0x00000000080012f0                TIM2_IRQHandler
+                0x00000000080012f0                TIM1_BRK_IRQHandler
+                0x00000000080012f0                EXTI1_IRQHandler
+                0x00000000080012f0                RTCAlarm_IRQHandler
+                0x00000000080012f0                DMA2_Channel4_5_IRQHandler
+                0x00000000080012f0                I2C2_ER_IRQHandler
+                0x00000000080012f0                DMA1_Channel2_IRQHandler
+                0x00000000080012f0                TIM8_BRK_IRQHandler
+                0x00000000080012f0                FLASH_IRQHandler
+                0x00000000080012f0                SPI3_IRQHandler
+                0x00000000080012f0                I2C1_ER_IRQHandler
+                0x00000000080012f0                DMA2_Channel3_IRQHandler
+ *fill*         0x00000000080012f2        0x2 
  .text.__libc_init_array
-                0x0000000008001264       0x48 d:/stm32_cube sofware/stm32cubeide/ide_1.10.0/setup/stm32cubeide_1.10.0/stm32cubeide/plugins/com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.10.3-2021.10.win32_1.0.0.202111181127/tools/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp\libc_nano.a(lib_a-init.o)
-                0x0000000008001264                __libc_init_array
+                0x00000000080012f4       0x48 d:/stm32_cube sofware/stm32cubeide/ide_1.10.0/setup/stm32cubeide_1.10.0/stm32cubeide/plugins/com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.10.3-2021.10.win32_1.0.0.202111181127/tools/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp\libc_nano.a(lib_a-init.o)
+                0x00000000080012f4                __libc_init_array
  *(.glue_7)
- .glue_7        0x00000000080012ac        0x0 linker stubs
+ .glue_7        0x000000000800133c        0x0 linker stubs
  *(.glue_7t)
- .glue_7t       0x00000000080012ac        0x0 linker stubs
+ .glue_7t       0x000000000800133c        0x0 linker stubs
  *(.eh_frame)
- .eh_frame      0x00000000080012ac        0x0 d:/stm32_cube sofware/stm32cubeide/ide_1.10.0/setup/stm32cubeide_1.10.0/stm32cubeide/plugins/com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.10.3-2021.10.win32_1.0.0.202111181127/tools/bin/../lib/gcc/arm-none-eabi/10.3.1/thumb/v7-m/nofp/crtbegin.o
+ .eh_frame      0x000000000800133c        0x0 d:/stm32_cube sofware/stm32cubeide/ide_1.10.0/setup/stm32cubeide_1.10.0/stm32cubeide/plugins/com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.10.3-2021.10.win32_1.0.0.202111181127/tools/bin/../lib/gcc/arm-none-eabi/10.3.1/thumb/v7-m/nofp/crtbegin.o
  *(.init)
- .init          0x00000000080012ac        0x4 d:/stm32_cube sofware/stm32cubeide/ide_1.10.0/setup/stm32cubeide_1.10.0/stm32cubeide/plugins/com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.10.3-2021.10.win32_1.0.0.202111181127/tools/bin/../lib/gcc/arm-none-eabi/10.3.1/thumb/v7-m/nofp/crti.o
-                0x00000000080012ac                _init
- .init          0x00000000080012b0        0x8 d:/stm32_cube sofware/stm32cubeide/ide_1.10.0/setup/stm32cubeide_1.10.0/stm32cubeide/plugins/com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.10.3-2021.10.win32_1.0.0.202111181127/tools/bin/../lib/gcc/arm-none-eabi/10.3.1/thumb/v7-m/nofp/crtn.o
+ .init          0x000000000800133c        0x4 d:/stm32_cube sofware/stm32cubeide/ide_1.10.0/setup/stm32cubeide_1.10.0/stm32cubeide/plugins/com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.10.3-2021.10.win32_1.0.0.202111181127/tools/bin/../lib/gcc/arm-none-eabi/10.3.1/thumb/v7-m/nofp/crti.o
+                0x000000000800133c                _init
+ .init          0x0000000008001340        0x8 d:/stm32_cube sofware/stm32cubeide/ide_1.10.0/setup/stm32cubeide_1.10.0/stm32cubeide/plugins/com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.10.3-2021.10.win32_1.0.0.202111181127/tools/bin/../lib/gcc/arm-none-eabi/10.3.1/thumb/v7-m/nofp/crtn.o
  *(.fini)
- .fini          0x00000000080012b8        0x4 d:/stm32_cube sofware/stm32cubeide/ide_1.10.0/setup/stm32cubeide_1.10.0/stm32cubeide/plugins/com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.10.3-2021.10.win32_1.0.0.202111181127/tools/bin/../lib/gcc/arm-none-eabi/10.3.1/thumb/v7-m/nofp/crti.o
-                0x00000000080012b8                _fini
- .fini          0x00000000080012bc        0x8 d:/stm32_cube sofware/stm32cubeide/ide_1.10.0/setup/stm32cubeide_1.10.0/stm32cubeide/plugins/com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.10.3-2021.10.win32_1.0.0.202111181127/tools/bin/../lib/gcc/arm-none-eabi/10.3.1/thumb/v7-m/nofp/crtn.o
-                0x00000000080012c4                . = ALIGN (0x4)
-                0x00000000080012c4                _etext = .
+ .fini          0x0000000008001348        0x4 d:/stm32_cube sofware/stm32cubeide/ide_1.10.0/setup/stm32cubeide_1.10.0/stm32cubeide/plugins/com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.10.3-2021.10.win32_1.0.0.202111181127/tools/bin/../lib/gcc/arm-none-eabi/10.3.1/thumb/v7-m/nofp/crti.o
+                0x0000000008001348                _fini
+ .fini          0x000000000800134c        0x8 d:/stm32_cube sofware/stm32cubeide/ide_1.10.0/setup/stm32cubeide_1.10.0/stm32cubeide/plugins/com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.10.3-2021.10.win32_1.0.0.202111181127/tools/bin/../lib/gcc/arm-none-eabi/10.3.1/thumb/v7-m/nofp/crtn.o
+                0x0000000008001354                . = ALIGN (0x4)
+                0x0000000008001354                _etext = .
 
-.vfp11_veneer   0x00000000080012c4        0x0
- .vfp11_veneer  0x00000000080012c4        0x0 linker stubs
+.vfp11_veneer   0x0000000008001354        0x0
+ .vfp11_veneer  0x0000000008001354        0x0 linker stubs
 
-.v4_bx          0x00000000080012c4        0x0
- .v4_bx         0x00000000080012c4        0x0 linker stubs
+.v4_bx          0x0000000008001354        0x0
+ .v4_bx         0x0000000008001354        0x0 linker stubs
 
-.iplt           0x00000000080012c4        0x0
- .iplt          0x00000000080012c4        0x0 d:/stm32_cube sofware/stm32cubeide/ide_1.10.0/setup/stm32cubeide_1.10.0/stm32cubeide/plugins/com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.10.3-2021.10.win32_1.0.0.202111181127/tools/bin/../lib/gcc/arm-none-eabi/10.3.1/thumb/v7-m/nofp/crtbegin.o
+.iplt           0x0000000008001354        0x0
+ .iplt          0x0000000008001354        0x0 d:/stm32_cube sofware/stm32cubeide/ide_1.10.0/setup/stm32cubeide_1.10.0/stm32cubeide/plugins/com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.10.3-2021.10.win32_1.0.0.202111181127/tools/bin/../lib/gcc/arm-none-eabi/10.3.1/thumb/v7-m/nofp/crtbegin.o
 
-.rel.dyn        0x00000000080012c4        0x0
- .rel.iplt      0x00000000080012c4        0x0 d:/stm32_cube sofware/stm32cubeide/ide_1.10.0/setup/stm32cubeide_1.10.0/stm32cubeide/plugins/com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.10.3-2021.10.win32_1.0.0.202111181127/tools/bin/../lib/gcc/arm-none-eabi/10.3.1/thumb/v7-m/nofp/crtbegin.o
+.rel.dyn        0x0000000008001354        0x0
+ .rel.iplt      0x0000000008001354        0x0 d:/stm32_cube sofware/stm32cubeide/ide_1.10.0/setup/stm32cubeide_1.10.0/stm32cubeide/plugins/com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.10.3-2021.10.win32_1.0.0.202111181127/tools/bin/../lib/gcc/arm-none-eabi/10.3.1/thumb/v7-m/nofp/crtbegin.o
 
-.rodata         0x00000000080012c4        0x0
-                0x00000000080012c4                . = ALIGN (0x4)
+.rodata         0x0000000008001354        0x0
+                0x0000000008001354                . = ALIGN (0x4)
  *(.rodata)
  *(.rodata*)
-                0x00000000080012c4                . = ALIGN (0x4)
+                0x0000000008001354                . = ALIGN (0x4)
 
-.ARM.extab      0x00000000080012c4        0x0
-                0x00000000080012c4                . = ALIGN (0x4)
+.ARM.extab      0x0000000008001354        0x0
+                0x0000000008001354                . = ALIGN (0x4)
  *(.ARM.extab* .gnu.linkonce.armextab.*)
-                0x00000000080012c4                . = ALIGN (0x4)
+                0x0000000008001354                . = ALIGN (0x4)
 
-.ARM            0x00000000080012c4        0x0
-                0x00000000080012c4                . = ALIGN (0x4)
-                0x00000000080012c4                __exidx_start = .
+.ARM            0x0000000008001354        0x0
+                0x0000000008001354                . = ALIGN (0x4)
+                0x0000000008001354                __exidx_start = .
  *(.ARM.exidx*)
-                0x00000000080012c4                __exidx_end = .
-                0x00000000080012c4                . = ALIGN (0x4)
+                0x0000000008001354                __exidx_end = .
+                0x0000000008001354                . = ALIGN (0x4)
 
-.preinit_array  0x00000000080012c4        0x0
-                0x00000000080012c4                . = ALIGN (0x4)
-                0x00000000080012c4                PROVIDE (__preinit_array_start = .)
+.preinit_array  0x0000000008001354        0x0
+                0x0000000008001354                . = ALIGN (0x4)
+                0x0000000008001354                PROVIDE (__preinit_array_start = .)
  *(.preinit_array*)
-                0x00000000080012c4                PROVIDE (__preinit_array_end = .)
-                0x00000000080012c4                . = ALIGN (0x4)
+                0x0000000008001354                PROVIDE (__preinit_array_end = .)
+                0x0000000008001354                . = ALIGN (0x4)
 
-.init_array     0x00000000080012c4        0x4
-                0x00000000080012c4                . = ALIGN (0x4)
-                0x00000000080012c4                PROVIDE (__init_array_start = .)
+.init_array     0x0000000008001354        0x4
+                0x0000000008001354                . = ALIGN (0x4)
+                0x0000000008001354                PROVIDE (__init_array_start = .)
  *(SORT_BY_NAME(.init_array.*))
  *(.init_array*)
- .init_array    0x00000000080012c4        0x4 d:/stm32_cube sofware/stm32cubeide/ide_1.10.0/setup/stm32cubeide_1.10.0/stm32cubeide/plugins/com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.10.3-2021.10.win32_1.0.0.202111181127/tools/bin/../lib/gcc/arm-none-eabi/10.3.1/thumb/v7-m/nofp/crtbegin.o
-                0x00000000080012c8                PROVIDE (__init_array_end = .)
-                0x00000000080012c8                . = ALIGN (0x4)
+ .init_array    0x0000000008001354        0x4 d:/stm32_cube sofware/stm32cubeide/ide_1.10.0/setup/stm32cubeide_1.10.0/stm32cubeide/plugins/com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.10.3-2021.10.win32_1.0.0.202111181127/tools/bin/../lib/gcc/arm-none-eabi/10.3.1/thumb/v7-m/nofp/crtbegin.o
+                0x0000000008001358                PROVIDE (__init_array_end = .)
+                0x0000000008001358                . = ALIGN (0x4)
 
-.fini_array     0x00000000080012c8        0x4
-                0x00000000080012c8                . = ALIGN (0x4)
+.fini_array     0x0000000008001358        0x4
+                0x0000000008001358                . = ALIGN (0x4)
                 [!provide]                        PROVIDE (__fini_array_start = .)
  *(SORT_BY_NAME(.fini_array.*))
  *(.fini_array*)
- .fini_array    0x00000000080012c8        0x4 d:/stm32_cube sofware/stm32cubeide/ide_1.10.0/setup/stm32cubeide_1.10.0/stm32cubeide/plugins/com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.10.3-2021.10.win32_1.0.0.202111181127/tools/bin/../lib/gcc/arm-none-eabi/10.3.1/thumb/v7-m/nofp/crtbegin.o
+ .fini_array    0x0000000008001358        0x4 d:/stm32_cube sofware/stm32cubeide/ide_1.10.0/setup/stm32cubeide_1.10.0/stm32cubeide/plugins/com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.10.3-2021.10.win32_1.0.0.202111181127/tools/bin/../lib/gcc/arm-none-eabi/10.3.1/thumb/v7-m/nofp/crtbegin.o
                 [!provide]                        PROVIDE (__fini_array_end = .)
-                0x00000000080012cc                . = ALIGN (0x4)
-                0x00000000080012cc                _sidata = LOADADDR (.data)
+                0x000000000800135c                . = ALIGN (0x4)
+                0x000000000800135c                _sidata = LOADADDR (.data)
 
-.data           0x0000000020000000       0x18 load address 0x00000000080012cc
+.data           0x0000000020000000       0x18 load address 0x000000000800135c
                 0x0000000020000000                . = ALIGN (0x4)
                 0x0000000020000000                _sdata = .
  *(.data)
@@ -1364,40 +1365,46 @@ LOAD d:/stm32_cube sofware/stm32cubeide/ide_1.10.0/setup/stm32cubeide_1.10.0/stm
  *fill*         0x0000000020000015        0x3 
                 0x0000000020000018                _edata = .
 
-.igot.plt       0x0000000020000018        0x0 load address 0x00000000080012e4
+.igot.plt       0x0000000020000018        0x0 load address 0x0000000008001374
  .igot.plt      0x0000000020000018        0x0 d:/stm32_cube sofware/stm32cubeide/ide_1.10.0/setup/stm32cubeide_1.10.0/stm32cubeide/plugins/com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.10.3-2021.10.win32_1.0.0.202111181127/tools/bin/../lib/gcc/arm-none-eabi/10.3.1/thumb/v7-m/nofp/crtbegin.o
                 0x0000000020000018                . = ALIGN (0x4)
 
-.bss            0x0000000020000018      0x854 load address 0x00000000080012e4
+.bss            0x0000000020000018      0x868 load address 0x0000000008001374
                 0x0000000020000018                _sbss = .
                 0x0000000020000018                __bss_start__ = _sbss
  *(.bss)
  .bss           0x0000000020000018       0x1c d:/stm32_cube sofware/stm32cubeide/ide_1.10.0/setup/stm32cubeide_1.10.0/stm32cubeide/plugins/com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.10.3-2021.10.win32_1.0.0.202111181127/tools/bin/../lib/gcc/arm-none-eabi/10.3.1/thumb/v7-m/nofp/crtbegin.o
  *(.bss*)
+ .bss.frameData
+                0x0000000020000034       0x14 ./App/APP.o
+                0x0000000020000034                frameData
+ .bss.frameSize
+                0x0000000020000048        0x1 ./App/APP.o
+                0x0000000020000048                frameSize
+ .bss.count     0x0000000020000049        0x1 ./Interrupt/stm32f10x_it.o
+                0x0000000020000049                count
  .bss.dataIndex
-                0x0000000020000034        0x2 ./Middleware/queue/src/queue_middleware.o
-                0x0000000020000034                dataIndex
- *fill*         0x0000000020000036        0x2 
+                0x000000002000004a        0x2 ./Middleware/queue/src/queue_middeware.o
+                0x000000002000004a                dataIndex
  .bss.s_queueList
-                0x0000000020000038      0x833 ./Middleware/queue/src/queue_middleware.o
-                0x0000000020000038                s_queueList
+                0x000000002000004c      0x833 ./Middleware/queue/src/queue_middeware.o
+                0x000000002000004c                s_queueList
  *(COMMON)
-                0x000000002000086c                . = ALIGN (0x4)
- *fill*         0x000000002000086b        0x1 
-                0x000000002000086c                _ebss = .
-                0x000000002000086c                __bss_end__ = _ebss
+                0x0000000020000880                . = ALIGN (0x4)
+ *fill*         0x000000002000087f        0x1 
+                0x0000000020000880                _ebss = .
+                0x0000000020000880                __bss_end__ = _ebss
 
 ._user_heap_stack
-                0x000000002000086c      0x604 load address 0x00000000080012e4
-                0x0000000020000870                . = ALIGN (0x8)
- *fill*         0x000000002000086c        0x4 
+                0x0000000020000880      0x600 load address 0x0000000008001374
+                0x0000000020000880                . = ALIGN (0x8)
                 [!provide]                        PROVIDE (end = .)
-                0x0000000020000870                PROVIDE (_end = .)
-                0x0000000020000a70                . = (. + _Min_Heap_Size)
- *fill*         0x0000000020000870      0x200 
-                0x0000000020000e70                . = (. + _Min_Stack_Size)
- *fill*         0x0000000020000a70      0x400 
-                0x0000000020000e70                . = ALIGN (0x8)
+                0x0000000020000880                PROVIDE (_end = .)
+                0x0000000020000a80                . = (. + _Min_Heap_Size)
+ *fill*         0x0000000020000880      0x200 
+                0x0000000020000e80                . = (. + _Min_Stack_Size)
+ *fill*         0x0000000020000a80      0x400 
+                0x0000000020000e80                . = ALIGN (0x8)
 
 /DISCARD/
  libc.a(*)
@@ -1432,7 +1439,7 @@ LOAD d:/stm32_cube sofware/stm32cubeide/ide_1.10.0/setup/stm32cubeide_1.10.0/stm
  .ARM.attributes
                 0x00000000000001df       0x2d ./Middleware/misc/src/misc_middleware.o
  .ARM.attributes
-                0x000000000000020c       0x2d ./Middleware/queue/src/queue_middleware.o
+                0x000000000000020c       0x2d ./Middleware/queue/src/queue_middeware.o
  .ARM.attributes
                 0x0000000000000239       0x2d ./Middleware/rcc/src/rcc_middleware.o
  .ARM.attributes
@@ -1453,41 +1460,41 @@ LOAD d:/stm32_cube sofware/stm32cubeide/ide_1.10.0/setup/stm32cubeide_1.10.0/stm
 LOAD d:/stm32_cube sofware/stm32cubeide/ide_1.10.0/setup/stm32cubeide_1.10.0/stm32cubeide/plugins/com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.10.3-2021.10.win32_1.0.0.202111181127/tools/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp\libm.a
 LOAD d:/stm32_cube sofware/stm32cubeide/ide_1.10.0/setup/stm32cubeide_1.10.0/stm32cubeide/plugins/com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.10.3-2021.10.win32_1.0.0.202111181127/tools/bin/../lib/gcc/arm-none-eabi/10.3.1/thumb/v7-m/nofp\libgcc.a
 
-.debug_info     0x0000000000000000     0x3e9a
- .debug_info    0x0000000000000000      0x3de ./App/APP.o
- .debug_info    0x00000000000003de      0x800 ./Drivers/flash/src/flash_driver.o
- .debug_info    0x0000000000000bde      0x39c ./Drivers/gpio/src/gpio_driver.o
- .debug_info    0x0000000000000f7a      0x510 ./Drivers/misc/src/misc_driver.o
- .debug_info    0x000000000000148a      0x8f7 ./Drivers/rcc/src/rcc_driver.o
- .debug_info    0x0000000000001d81      0xaa8 ./Drivers/uart/src/uart_driver.o
- .debug_info    0x0000000000002829      0x2ad ./Interrupt/stm32f10x_it.o
- .debug_info    0x0000000000002ad6      0x289 ./Middleware/gpio/src/gpio_middleware.o
- .debug_info    0x0000000000002d5f      0x2da ./Middleware/handle_data_frame/src/handle_data_frame.o
- .debug_info    0x0000000000003039      0x2a4 ./Middleware/misc/src/misc_middleware.o
- .debug_info    0x00000000000032dd      0x26d ./Middleware/queue/src/queue_middleware.o
- .debug_info    0x000000000000354a       0xdb ./Middleware/rcc/src/rcc_middleware.o
- .debug_info    0x0000000000003625      0x344 ./Middleware/uart/src/uart_middleware.o
- .debug_info    0x0000000000003969       0x96 ./Src/main.o
- .debug_info    0x00000000000039ff      0x479 ./Src/system_stm32f10x.o
- .debug_info    0x0000000000003e78       0x22 ./Startup/startup_stm32f103c6tx.o
+.debug_info     0x0000000000000000     0x3ed3
+ .debug_info    0x0000000000000000      0x3db ./App/APP.o
+ .debug_info    0x00000000000003db      0x800 ./Drivers/flash/src/flash_driver.o
+ .debug_info    0x0000000000000bdb      0x39c ./Drivers/gpio/src/gpio_driver.o
+ .debug_info    0x0000000000000f77      0x510 ./Drivers/misc/src/misc_driver.o
+ .debug_info    0x0000000000001487      0x8f7 ./Drivers/rcc/src/rcc_driver.o
+ .debug_info    0x0000000000001d7e      0xaa8 ./Drivers/uart/src/uart_driver.o
+ .debug_info    0x0000000000002826      0x394 ./Interrupt/stm32f10x_it.o
+ .debug_info    0x0000000000002bba      0x289 ./Middleware/gpio/src/gpio_middleware.o
+ .debug_info    0x0000000000002e43      0x2da ./Middleware/handle_data_frame/src/handle_data_frame.o
+ .debug_info    0x000000000000311d      0x2a4 ./Middleware/misc/src/misc_middleware.o
+ .debug_info    0x00000000000033c1      0x26d ./Middleware/queue/src/queue_middeware.o
+ .debug_info    0x000000000000362e       0xdb ./Middleware/rcc/src/rcc_middleware.o
+ .debug_info    0x0000000000003709      0x299 ./Middleware/uart/src/uart_middleware.o
+ .debug_info    0x00000000000039a2       0x96 ./Src/main.o
+ .debug_info    0x0000000000003a38      0x479 ./Src/system_stm32f10x.o
+ .debug_info    0x0000000000003eb1       0x22 ./Startup/startup_stm32f103c6tx.o
 
-.debug_abbrev   0x0000000000000000     0x139c
- .debug_abbrev  0x0000000000000000      0x1cd ./App/APP.o
- .debug_abbrev  0x00000000000001cd      0x1a7 ./Drivers/flash/src/flash_driver.o
- .debug_abbrev  0x0000000000000374      0x151 ./Drivers/gpio/src/gpio_driver.o
- .debug_abbrev  0x00000000000004c5      0x184 ./Drivers/misc/src/misc_driver.o
- .debug_abbrev  0x0000000000000649      0x1d6 ./Drivers/rcc/src/rcc_driver.o
- .debug_abbrev  0x000000000000081f      0x1b0 ./Drivers/uart/src/uart_driver.o
- .debug_abbrev  0x00000000000009cf      0x11e ./Interrupt/stm32f10x_it.o
- .debug_abbrev  0x0000000000000aed      0x13c ./Middleware/gpio/src/gpio_middleware.o
- .debug_abbrev  0x0000000000000c29      0x11b ./Middleware/handle_data_frame/src/handle_data_frame.o
- .debug_abbrev  0x0000000000000d44       0xf5 ./Middleware/misc/src/misc_middleware.o
- .debug_abbrev  0x0000000000000e39      0x13a ./Middleware/queue/src/queue_middleware.o
- .debug_abbrev  0x0000000000000f73       0x9d ./Middleware/rcc/src/rcc_middleware.o
- .debug_abbrev  0x0000000000001010      0x16d ./Middleware/uart/src/uart_middleware.o
- .debug_abbrev  0x000000000000117d       0x5c ./Src/main.o
- .debug_abbrev  0x00000000000011d9      0x1b1 ./Src/system_stm32f10x.o
- .debug_abbrev  0x000000000000138a       0x12 ./Startup/startup_stm32f103c6tx.o
+.debug_abbrev   0x0000000000000000     0x13fc
+ .debug_abbrev  0x0000000000000000      0x1f8 ./App/APP.o
+ .debug_abbrev  0x00000000000001f8      0x1a7 ./Drivers/flash/src/flash_driver.o
+ .debug_abbrev  0x000000000000039f      0x151 ./Drivers/gpio/src/gpio_driver.o
+ .debug_abbrev  0x00000000000004f0      0x184 ./Drivers/misc/src/misc_driver.o
+ .debug_abbrev  0x0000000000000674      0x1d6 ./Drivers/rcc/src/rcc_driver.o
+ .debug_abbrev  0x000000000000084a      0x1b0 ./Drivers/uart/src/uart_driver.o
+ .debug_abbrev  0x00000000000009fa      0x199 ./Interrupt/stm32f10x_it.o
+ .debug_abbrev  0x0000000000000b93      0x13c ./Middleware/gpio/src/gpio_middleware.o
+ .debug_abbrev  0x0000000000000ccf      0x11b ./Middleware/handle_data_frame/src/handle_data_frame.o
+ .debug_abbrev  0x0000000000000dea       0xf5 ./Middleware/misc/src/misc_middleware.o
+ .debug_abbrev  0x0000000000000edf      0x13a ./Middleware/queue/src/queue_middeware.o
+ .debug_abbrev  0x0000000000001019       0x9d ./Middleware/rcc/src/rcc_middleware.o
+ .debug_abbrev  0x00000000000010b6      0x127 ./Middleware/uart/src/uart_middleware.o
+ .debug_abbrev  0x00000000000011dd       0x5c ./Src/main.o
+ .debug_abbrev  0x0000000000001239      0x1b1 ./Src/system_stm32f10x.o
+ .debug_abbrev  0x00000000000013ea       0x12 ./Startup/startup_stm32f103c6tx.o
 
 .debug_aranges  0x0000000000000000      0x5c0
  .debug_aranges
@@ -1511,7 +1518,7 @@ LOAD d:/stm32_cube sofware/stm32cubeide/ide_1.10.0/setup/stm32cubeide_1.10.0/stm
  .debug_aranges
                 0x0000000000000488       0x20 ./Middleware/misc/src/misc_middleware.o
  .debug_aranges
-                0x00000000000004a8       0x50 ./Middleware/queue/src/queue_middleware.o
+                0x00000000000004a8       0x50 ./Middleware/queue/src/queue_middeware.o
  .debug_aranges
                 0x00000000000004f8       0x20 ./Middleware/rcc/src/rcc_middleware.o
  .debug_aranges
@@ -1534,14 +1541,14 @@ LOAD d:/stm32_cube sofware/stm32cubeide/ide_1.10.0/setup/stm32cubeide_1.10.0/stm
  .debug_ranges  0x00000000000003c0       0x18 ./Middleware/gpio/src/gpio_middleware.o
  .debug_ranges  0x00000000000003d8       0x20 ./Middleware/handle_data_frame/src/handle_data_frame.o
  .debug_ranges  0x00000000000003f8       0x10 ./Middleware/misc/src/misc_middleware.o
- .debug_ranges  0x0000000000000408       0x40 ./Middleware/queue/src/queue_middleware.o
+ .debug_ranges  0x0000000000000408       0x40 ./Middleware/queue/src/queue_middeware.o
  .debug_ranges  0x0000000000000448       0x10 ./Middleware/rcc/src/rcc_middleware.o
  .debug_ranges  0x0000000000000458       0x18 ./Middleware/uart/src/uart_middleware.o
  .debug_ranges  0x0000000000000470       0x10 ./Src/main.o
  .debug_ranges  0x0000000000000480       0x28 ./Src/system_stm32f10x.o
  .debug_ranges  0x00000000000004a8       0x20 ./Startup/startup_stm32f103c6tx.o
 
-.debug_macro    0x0000000000000000     0xca86
+.debug_macro    0x0000000000000000     0xca8f
  .debug_macro   0x0000000000000000      0x28b ./App/APP.o
  .debug_macro   0x000000000000028b      0xa7e ./App/APP.o
  .debug_macro   0x0000000000000d09       0x22 ./App/APP.o
@@ -1601,72 +1608,72 @@ LOAD d:/stm32_cube sofware/stm32cubeide/ide_1.10.0/setup/stm32cubeide_1.10.0/stm
  .debug_macro   0x000000000000b986      0x1b6 ./Drivers/rcc/src/rcc_driver.o
  .debug_macro   0x000000000000bb3c      0x3dc ./Drivers/rcc/src/rcc_driver.o
  .debug_macro   0x000000000000bf18      0x157 ./Drivers/uart/src/uart_driver.o
- .debug_macro   0x000000000000c06f       0xb6 ./Interrupt/stm32f10x_it.o
- .debug_macro   0x000000000000c125      0x220 ./Interrupt/stm32f10x_it.o
- .debug_macro   0x000000000000c345       0xb4 ./Middleware/gpio/src/gpio_middleware.o
- .debug_macro   0x000000000000c3f9       0x75 ./Middleware/handle_data_frame/src/handle_data_frame.o
- .debug_macro   0x000000000000c46e       0x9f ./Middleware/misc/src/misc_middleware.o
- .debug_macro   0x000000000000c50d      0x148 ./Middleware/queue/src/queue_middleware.o
- .debug_macro   0x000000000000c655      0x174 ./Middleware/queue/src/queue_middleware.o
- .debug_macro   0x000000000000c7c9       0x10 ./Middleware/queue/src/queue_middleware.o
- .debug_macro   0x000000000000c7d9       0x35 ./Middleware/queue/src/queue_middleware.o
- .debug_macro   0x000000000000c80e       0x20 ./Middleware/queue/src/queue_middleware.o
- .debug_macro   0x000000000000c82e       0x9f ./Middleware/rcc/src/rcc_middleware.o
- .debug_macro   0x000000000000c8cd       0x9f ./Middleware/uart/src/uart_middleware.o
- .debug_macro   0x000000000000c96c       0x6c ./Src/main.o
- .debug_macro   0x000000000000c9d8       0x16 ./Src/main.o
- .debug_macro   0x000000000000c9ee       0x98 ./Src/system_stm32f10x.o
+ .debug_macro   0x000000000000c06f       0xbf ./Interrupt/stm32f10x_it.o
+ .debug_macro   0x000000000000c12e      0x220 ./Interrupt/stm32f10x_it.o
+ .debug_macro   0x000000000000c34e       0xb4 ./Middleware/gpio/src/gpio_middleware.o
+ .debug_macro   0x000000000000c402       0x75 ./Middleware/handle_data_frame/src/handle_data_frame.o
+ .debug_macro   0x000000000000c477       0x9f ./Middleware/misc/src/misc_middleware.o
+ .debug_macro   0x000000000000c516      0x148 ./Middleware/queue/src/queue_middeware.o
+ .debug_macro   0x000000000000c65e      0x174 ./Middleware/queue/src/queue_middeware.o
+ .debug_macro   0x000000000000c7d2       0x10 ./Middleware/queue/src/queue_middeware.o
+ .debug_macro   0x000000000000c7e2       0x35 ./Middleware/queue/src/queue_middeware.o
+ .debug_macro   0x000000000000c817       0x20 ./Middleware/queue/src/queue_middeware.o
+ .debug_macro   0x000000000000c837       0x9f ./Middleware/rcc/src/rcc_middleware.o
+ .debug_macro   0x000000000000c8d6       0x9f ./Middleware/uart/src/uart_middleware.o
+ .debug_macro   0x000000000000c975       0x6c ./Src/main.o
+ .debug_macro   0x000000000000c9e1       0x16 ./Src/main.o
+ .debug_macro   0x000000000000c9f7       0x98 ./Src/system_stm32f10x.o
 
-.debug_line     0x0000000000000000     0x7481
- .debug_line    0x0000000000000000      0xc2c ./App/APP.o
- .debug_line    0x0000000000000c2c      0xaf3 ./Drivers/flash/src/flash_driver.o
- .debug_line    0x000000000000171f      0x6fe ./Drivers/gpio/src/gpio_driver.o
- .debug_line    0x0000000000001e1d      0x65e ./Drivers/misc/src/misc_driver.o
- .debug_line    0x000000000000247b      0xad5 ./Drivers/rcc/src/rcc_driver.o
- .debug_line    0x0000000000002f50      0xac9 ./Drivers/uart/src/uart_driver.o
- .debug_line    0x0000000000003a19      0x6c1 ./Interrupt/stm32f10x_it.o
- .debug_line    0x00000000000040da      0x627 ./Middleware/gpio/src/gpio_middleware.o
- .debug_line    0x0000000000004701      0x7ac ./Middleware/handle_data_frame/src/handle_data_frame.o
- .debug_line    0x0000000000004ead      0x5e1 ./Middleware/misc/src/misc_middleware.o
- .debug_line    0x000000000000548e      0x7e8 ./Middleware/queue/src/queue_middleware.o
- .debug_line    0x0000000000005c76      0x5d1 ./Middleware/rcc/src/rcc_middleware.o
- .debug_line    0x0000000000006247      0x636 ./Middleware/uart/src/uart_middleware.o
- .debug_line    0x000000000000687d      0x506 ./Src/main.o
- .debug_line    0x0000000000006d83      0x67a ./Src/system_stm32f10x.o
- .debug_line    0x00000000000073fd       0x84 ./Startup/startup_stm32f103c6tx.o
+.debug_line     0x0000000000000000     0x74ad
+ .debug_line    0x0000000000000000      0xc29 ./App/APP.o
+ .debug_line    0x0000000000000c29      0xaf3 ./Drivers/flash/src/flash_driver.o
+ .debug_line    0x000000000000171c      0x6fe ./Drivers/gpio/src/gpio_driver.o
+ .debug_line    0x0000000000001e1a      0x65e ./Drivers/misc/src/misc_driver.o
+ .debug_line    0x0000000000002478      0xad5 ./Drivers/rcc/src/rcc_driver.o
+ .debug_line    0x0000000000002f4d      0xac9 ./Drivers/uart/src/uart_driver.o
+ .debug_line    0x0000000000003a16      0x725 ./Interrupt/stm32f10x_it.o
+ .debug_line    0x000000000000413b      0x627 ./Middleware/gpio/src/gpio_middleware.o
+ .debug_line    0x0000000000004762      0x7ac ./Middleware/handle_data_frame/src/handle_data_frame.o
+ .debug_line    0x0000000000004f0e      0x5e1 ./Middleware/misc/src/misc_middleware.o
+ .debug_line    0x00000000000054ef      0x7e7 ./Middleware/queue/src/queue_middeware.o
+ .debug_line    0x0000000000005cd6      0x5d1 ./Middleware/rcc/src/rcc_middleware.o
+ .debug_line    0x00000000000062a7      0x602 ./Middleware/uart/src/uart_middleware.o
+ .debug_line    0x00000000000068a9      0x506 ./Src/main.o
+ .debug_line    0x0000000000006daf      0x67a ./Src/system_stm32f10x.o
+ .debug_line    0x0000000000007429       0x84 ./Startup/startup_stm32f103c6tx.o
 
-.debug_str      0x0000000000000000    0x3d877
- .debug_str     0x0000000000000000    0x3b0a8 ./App/APP.o
-                                      0x3b2b6 (size before relaxing)
- .debug_str     0x000000000003b0a8      0x807 ./Drivers/flash/src/flash_driver.o
+.debug_str      0x0000000000000000    0x3d867
+ .debug_str     0x0000000000000000    0x3b0a1 ./App/APP.o
+                                      0x3b2af (size before relaxing)
+ .debug_str     0x000000000003b0a1      0x807 ./Drivers/flash/src/flash_driver.o
                                       0x33c44 (size before relaxing)
- .debug_str     0x000000000003b8af      0x1b2 ./Drivers/gpio/src/gpio_driver.o
+ .debug_str     0x000000000003b8a8      0x1b2 ./Drivers/gpio/src/gpio_driver.o
                                       0x32253 (size before relaxing)
- .debug_str     0x000000000003ba61      0x25e ./Drivers/misc/src/misc_driver.o
+ .debug_str     0x000000000003ba5a      0x25e ./Drivers/misc/src/misc_driver.o
                                       0x324fe (size before relaxing)
- .debug_str     0x000000000003bcbf      0xb51 ./Drivers/rcc/src/rcc_driver.o
+ .debug_str     0x000000000003bcb8      0xb51 ./Drivers/rcc/src/rcc_driver.o
                                       0x34878 (size before relaxing)
- .debug_str     0x000000000003c810      0x7fc ./Drivers/uart/src/uart_driver.o
+ .debug_str     0x000000000003c809      0x7fc ./Drivers/uart/src/uart_driver.o
                                       0x35a39 (size before relaxing)
- .debug_str     0x000000000003d00c       0xe2 ./Interrupt/stm32f10x_it.o
-                                      0x33604 (size before relaxing)
- .debug_str     0x000000000003d0ee       0x65 ./Middleware/gpio/src/gpio_middleware.o
+ .debug_str     0x000000000003d005       0xe8 ./Interrupt/stm32f10x_it.o
+                                      0x336dc (size before relaxing)
+ .debug_str     0x000000000003d0ed       0x65 ./Middleware/gpio/src/gpio_middleware.o
                                       0x32238 (size before relaxing)
- .debug_str     0x000000000003d153      0x1cd ./Middleware/handle_data_frame/src/handle_data_frame.o
+ .debug_str     0x000000000003d152      0x1cd ./Middleware/handle_data_frame/src/handle_data_frame.o
                                        0x3f29 (size before relaxing)
- .debug_str     0x000000000003d320      0x301 ./Middleware/misc/src/misc_middleware.o
+ .debug_str     0x000000000003d31f      0x301 ./Middleware/misc/src/misc_middleware.o
                                       0x32659 (size before relaxing)
- .debug_str     0x000000000003d621      0x10a ./Middleware/queue/src/queue_middleware.o
-                                       0x6ead (size before relaxing)
- .debug_str     0x000000000003d72b       0x27 ./Middleware/rcc/src/rcc_middleware.o
+ .debug_str     0x000000000003d620      0x109 ./Middleware/queue/src/queue_middeware.o
+                                       0x6eac (size before relaxing)
+ .debug_str     0x000000000003d729       0x27 ./Middleware/rcc/src/rcc_middleware.o
                                       0x33d10 (size before relaxing)
- .debug_str     0x000000000003d752       0x4b ./Middleware/uart/src/uart_middleware.o
-                                      0x3341f (size before relaxing)
- .debug_str     0x000000000003d79d       0x13 ./Src/main.o
+ .debug_str     0x000000000003d750       0x3d ./Middleware/uart/src/uart_middleware.o
+                                      0x333bd (size before relaxing)
+ .debug_str     0x000000000003d78d       0x13 ./Src/main.o
                                        0x3c4c (size before relaxing)
- .debug_str     0x000000000003d7b0       0x96 ./Src/system_stm32f10x.o
+ .debug_str     0x000000000003d7a0       0x96 ./Src/system_stm32f10x.o
                                       0x31f7e (size before relaxing)
- .debug_str     0x000000000003d846       0x31 ./Startup/startup_stm32f103c6tx.o
+ .debug_str     0x000000000003d836       0x31 ./Startup/startup_stm32f103c6tx.o
                                          0x6e (size before relaxing)
 
 .comment        0x0000000000000000       0x50
@@ -1681,13 +1688,13 @@ LOAD d:/stm32_cube sofware/stm32cubeide/ide_1.10.0/setup/stm32cubeide_1.10.0/stm
  .comment       0x0000000000000050       0x51 ./Middleware/gpio/src/gpio_middleware.o
  .comment       0x0000000000000050       0x51 ./Middleware/handle_data_frame/src/handle_data_frame.o
  .comment       0x0000000000000050       0x51 ./Middleware/misc/src/misc_middleware.o
- .comment       0x0000000000000050       0x51 ./Middleware/queue/src/queue_middleware.o
+ .comment       0x0000000000000050       0x51 ./Middleware/queue/src/queue_middeware.o
  .comment       0x0000000000000050       0x51 ./Middleware/rcc/src/rcc_middleware.o
  .comment       0x0000000000000050       0x51 ./Middleware/uart/src/uart_middleware.o
  .comment       0x0000000000000050       0x51 ./Src/main.o
  .comment       0x0000000000000050       0x51 ./Src/system_stm32f10x.o
 
-.debug_frame    0x0000000000000000     0x14a0
+.debug_frame    0x0000000000000000     0x1498
  .debug_frame   0x0000000000000000       0x74 ./App/APP.o
  .debug_frame   0x0000000000000074      0x410 ./Drivers/flash/src/flash_driver.o
  .debug_frame   0x0000000000000484       0xd0 ./Drivers/gpio/src/gpio_driver.o
@@ -1698,9 +1705,9 @@ LOAD d:/stm32_cube sofware/stm32cubeide/ide_1.10.0/setup/stm32cubeide_1.10.0/stm
  .debug_frame   0x0000000000001104       0x58 ./Middleware/gpio/src/gpio_middleware.o
  .debug_frame   0x000000000000115c       0x84 ./Middleware/handle_data_frame/src/handle_data_frame.o
  .debug_frame   0x00000000000011e0       0x34 ./Middleware/misc/src/misc_middleware.o
- .debug_frame   0x0000000000001214      0x118 ./Middleware/queue/src/queue_middleware.o
+ .debug_frame   0x0000000000001214      0x118 ./Middleware/queue/src/queue_middeware.o
  .debug_frame   0x000000000000132c       0x2c ./Middleware/rcc/src/rcc_middleware.o
- .debug_frame   0x0000000000001358       0x58 ./Middleware/uart/src/uart_middleware.o
- .debug_frame   0x00000000000013b0       0x2c ./Src/main.o
- .debug_frame   0x00000000000013dc       0x98 ./Src/system_stm32f10x.o
- .debug_frame   0x0000000000001474       0x2c d:/stm32_cube sofware/stm32cubeide/ide_1.10.0/setup/stm32cubeide_1.10.0/stm32cubeide/plugins/com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.10.3-2021.10.win32_1.0.0.202111181127/tools/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp\libc_nano.a(lib_a-init.o)
+ .debug_frame   0x0000000000001358       0x50 ./Middleware/uart/src/uart_middleware.o
+ .debug_frame   0x00000000000013a8       0x2c ./Src/main.o
+ .debug_frame   0x00000000000013d4       0x98 ./Src/system_stm32f10x.o
+ .debug_frame   0x000000000000146c       0x2c d:/stm32_cube sofware/stm32cubeide/ide_1.10.0/setup/stm32cubeide_1.10.0/stm32cubeide/plugins/com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.10.3-2021.10.win32_1.0.0.202111181127/tools/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp\libc_nano.a(lib_a-init.o)

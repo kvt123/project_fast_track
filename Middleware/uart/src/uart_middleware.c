@@ -24,19 +24,9 @@ void USART_Configuration(void)
 
 }
 
-void USART1_transmit_string(uint8_t *buffer, uint16_t length_buffer)
+void USART1_transmit()
 {
-    uint16_t i=0;
-    for(i =0; i< length_buffer; i++)
-    {
-//        if(USART_GetITStatus(USART1, USART_IT_TXE) != RESET)
- //       {
-        if(USART_GetFlagStatus(USART1, USART_FLAG_TXE) == SET)
-        {
-            USART_SendData(USART1, buffer[i]);
-            while(USART_GetFlagStatus(USART1, USART_FLAG_TC) != SET);
-        }
-    
- //       }
-    }
+    USART_ITConfig(USART1, USART_IT_RXNE, DISABLE);
+    USART_ITConfig(USART1, USART_IT_TXE, ENABLE);
+
 }

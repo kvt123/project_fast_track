@@ -17,7 +17,8 @@
 #define BANK1_WRITE_START_ADDR  ((uint32_t)0x08008000)
 #define BANK1_WRITE_END_ADDR    ((uint32_t)0x0800C000)
 
-
+uint8_t frameData[20] ={0};
+uint8_t frameSize;
 
 //typedef void (*function) (void);
 //function jump_to_app;
@@ -56,8 +57,6 @@ void StartProgram(void)
     parse_data_line_struct_t Output;
     uint8_t *popBuff;
     bool stopProgram= false;
-    uint8_t frameData[20] ={0};
-    uint8_t frameSize;
     while(!stopProgram)
     {
         if(!queue_isEmpty())
@@ -66,7 +65,7 @@ void StartProgram(void)
             handleDataFrame(popBuff, &Output,Control_Led);
             CreateSendFeedBackFrame(&Output, frameData, &frameSize);
             queue_get();
-            USART1_transmit_string(frameData,frameSize);
+           USART1_transmit();
         }
     }
     

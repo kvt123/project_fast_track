@@ -5,13 +5,13 @@
 
 # Add inputs and outputs from these tool invocations to the build variables 
 C_SRCS += \
-../Middleware/queue/src/queue_middleware.c 
+../Middleware/queue/src/queue_middeware.c 
 
 OBJS += \
-./Middleware/queue/src/queue_middleware.o 
+./Middleware/queue/src/queue_middeware.o 
 
 C_DEPS += \
-./Middleware/queue/src/queue_middleware.d 
+./Middleware/queue/src/queue_middeware.d 
 
 
 # Each subdirectory must supply rules for building sources it contributes
@@ -21,7 +21,7 @@ Middleware/queue/src/%.o Middleware/queue/src/%.su: ../Middleware/queue/src/%.c 
 clean: clean-Middleware-2f-queue-2f-src
 
 clean-Middleware-2f-queue-2f-src:
-	-$(RM) ./Middleware/queue/src/queue_middleware.d ./Middleware/queue/src/queue_middleware.o ./Middleware/queue/src/queue_middleware.su
+	-$(RM) ./Middleware/queue/src/queue_middeware.d ./Middleware/queue/src/queue_middeware.o ./Middleware/queue/src/queue_middeware.su
 
 .PHONY: clean-Middleware-2f-queue-2f-src
 
